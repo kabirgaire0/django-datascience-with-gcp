@@ -1,0 +1,38 @@
+# Django web framework
+Django>=4.2  # Core framework for building web applications
+
+# Apache Beam for Google Cloud Dataflow
+apache-beam[gcp]>=2.48.0  # SDK for creating data processing pipelines, integrates with GCP Dataflow, compatible with Python 3.8
+
+# Google Cloud BigQuery client library
+google-cloud-bigquery>=3.10.0  # For interacting with BigQuery to perform data analytics, compatible with Python 3.8
+
+# Google Cloud Storage client library
+google-cloud-storage>=2.5.0  # For managing storage on GCP, used for static and media files, compatible with Python 3.8
+
+# Google Cloud Secret Manager client library
+google-cloud-secret-manager>=2.16.0  # For securely storing and accessing secrets (e.g., API keys), compatible with Python 3.8
+
+# Google Auth library for authentication with GCP
+google-auth>=2.24.0  # For authenticating with GCP services
+
+# PostgreSQL adapter for Python, used for Cloud SQL
+psycopg2-binary>=2.9.7  # PostgreSQL adapter for Python, necessary to interact with Cloud SQL
+
+# Django integration for cloud storage (Google Cloud Storage in this case)
+django-storages>=1.13.0  # Handles file storage with Google Cloud Storage integration
+
+# Python Decouple for managing environment variables
+python-decouple>=3.8  # Simplifies environment variable management, helping keep sensitive data secure
+
+# Apache Airflow (Managed by Cloud Composer)
+apache-airflow>=2.6.0  # Workflow orchestration tool, integrates with GCP for managing workflows, compatible with Python 3.8
+
+# Django REST Framework
+djangorestframework>=3.14.0  # Toolkit for building Web APIs with Django
+
+# Django-environ for environment variables management
+django-environ>=0.10.0  # Alternative to python-decouple for handling environment variables
+
+# Requests library for making HTTP requests
+requests>=2.31.0  # For making HTTP requests to external APIs
